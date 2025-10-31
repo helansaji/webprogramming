@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript">function check()
+{
+if(document.getElementByld('name').value=="")
+alert("please enter your name");
+if(document.getElementByld('user').value=="")
+alert("please enter auserename");
+var email=document.GetElementByld('mail');
+var filter=/^[a-za-z0-9_\.\-]+\@(([a-za-z0-9\-]+([a-za-z0-9]{2,4}+$/;
+if (!filter.test(email.value))
+{
+alert(please enter your password");
+if((document.GetElementbyld('pswd').value)!=(document.GetElementByld('cpswd').value))
+alert("password does not match");
+}
+</script>
+</head>
+<body>
+<center>
+<form>
+</form>
+<u><h1>REGISTRATION<in put type="text"id="name"><br><br>
+<h1></u> usernamke:<input type="text"
+n id="user"><br><br>email:<input type="text"
+a id="mail"><br><br>
+password:<input type="password"id="pswd"><br><br>
+confirm password:<input type="password"id="cpswd"><br><br>
+<input type="submit"id="submit"onclick="check()">&emsp;<input type="reset">
+</center>
+</body>
+</html>
